@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tab{
+	width: 500px;
+	margin: 50px auto;
+}
+
+.tab ul{
+	width: 500px;
+	height: 50px;
+}
+
+.tab ul li{
+	float: left;
+	width: 24.6%;
+	text-align:center;
+	line-height: 50px;
+	border: 1px  solid #ccc;
+}
+.tab ol{
+	float: left;
+	height: 300px;
+	width: 500px;
+	border: 1px solid #ccc;
+}
+.tab ol li{
+	width: 500px;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	display: none;
+}
+.on{
+	background: green;
+	color: #fff;
+}
